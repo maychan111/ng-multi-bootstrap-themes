@@ -1,0 +1,16 @@
+<div class="container">
+  <div style="text-align:center">
+    <h3 class="custom-color">
+      {{ title }}
+    </h3>
+  </div>
+  <div class="card" style="width: 10rem;">
+    <div class="card-header">Switch Themes</div>
+    <div class="card-block container">
+      <div class="btn-group" role="group" aria-label="Switch Style">
+        <button type="button" class="btn btn-primary" (click)="setTheme('Dark')">Dark</button>
+        <button type="button" class="btn btn-secondary" (click)="setTheme('Light')">Light</button>
+      </div>
+    </div>
+  </div>
+</div>
