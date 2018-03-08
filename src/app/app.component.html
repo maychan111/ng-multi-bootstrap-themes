@@ -4,25 +4,21 @@
       {{ title }}
     </h3>
   </div>
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="card" style="width: 10rem;">
-        <div class="card-header">Switch Themes</div>
-        <div class="card-block container">
-          <div class="btn-group" role="group" aria-label="Switch Style">
-            <button type="button" class="btn btn-primary" (click)="setTheme('Dark')">Dark</button>
-            <button type="button" class="btn btn-secondary" (click)="setTheme('Light')">Light</button>
-          </div>
+  <div class="card-deck">
+    <div class="card mb-4" style="width: 10rem;">
+      <div class="card-header">Switch Themes</div>
+      <div class="card-block container">
+        <div class="btn-group" role="group" aria-label="Switch Style">
+          <button type="button" class="btn btn-primary" (click)="setTheme('Dark')">Dark</button>
+          <button type="button" class="btn btn-secondary" (click)="setTheme('Light')">Light</button>
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="card" style="width: 10rem;">
-        <div class="card-header">Font Awesome</div>
-        <div class="card-block container">
-          <div class="btn-group" role="group" aria-label="Switch Style">
-            <i class="fa fa-home fa-2x" aria-hidden="true"> Home</i>
-          </div>
+    <div class="card mb-4" style="width: 10rem;">
+      <div class="card-header">Font Awesome</div>
+      <div class="card-block container">
+        <div class="btn-group" role="group" aria-label="Switch Style">
+          <i class="fa fa-home fa-2x" aria-hidden="true"> Home</i>
         </div>
       </div>
     </div>
