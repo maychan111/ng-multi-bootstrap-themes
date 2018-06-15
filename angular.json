@@ -44,7 +44,7 @@
             },
             "production": {
               "optimization": true,
-              "outputHashing": "all",
+              "outputHashing": "media",
               "sourceMap": false,
               "extractCss": true,
               "namedChunks": false,
